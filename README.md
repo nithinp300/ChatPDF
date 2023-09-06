@@ -7,4 +7,4 @@ The following diagram shows the project workflow:
 
 ![alt text](./workflow.jpeg)
 
-Created a webpage
+Created a webpage wth gradio and fastapi
