@@ -6,7 +6,7 @@ import os
 
 os.environ["OPENAI_API_KEY"] = ""
 
-llm = ChatOpenAI(temperature=1.0, model='gpt-3.5-turbo-0613')
+llm = ChatOpenAI(temperature=1.0, model='gpt-3.5-turbo')
 
 def predict(message, history):
     history_langchain_format = []
